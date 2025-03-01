@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f4;
+    background: linear-gradient(to right, #ffe632, #68b5f4);
 }
 .profile-container {
     background: #fff;
@@ -41,7 +41,7 @@ body {
     border-radius: 16px;
     padding: 5px;
 }
-.stream , .CollegeName , .branch , #interests {
+.courses_viewed , #name , .goals , #interests {
     margin-top: 20px;
     display: flex;
     width: 90%;
@@ -49,4 +49,17 @@ body {
     max-height: 30px;
     border-radius: 16px;
     padding: 5px
+}
+button {
+    margin-top: 20px;
+    display: flex;
+    width: 65%;
+    justify-self: center;
+    border-radius: 16px;
+    padding: 5px;
+    justify-content: center;
+
+    &:hover {
+        background: linear-gradient(to right, #ffe632, #68b5f4);
+    }
 }
